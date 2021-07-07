@@ -1,0 +1,141 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.nav-bar{
+    width: 78%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+.nav-bar ul li a:hover{
+    color: tomato;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:#575757;
+    font-weight: 700;
+}
+h1{
+    font-weight: 700;
+    color: #828282;
+}
+h3{
+    font-weight: 700;
+    color: #828282;
+}
+p{
+    color: #828282;
+    font-size: 20px;
+}
+.color-tomato{
+    color:tomato;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}  
+.order-food{
+    padding: 0px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.order-food h1{
+    font-size: 50px;
+}
+.top-banner img{
+    width: 500px;
+    height: 700x;
+    object-fit: contain;
+    padding: 0;
+    margin: 0px;
+}
+.banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+  }
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, #FBB64F, #FF1E1E);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.about-me-pic img{
+    height: 338px;
+    width: 536px;
+    object-fit: contain;
+    padding: 0;
+    margin-top: 20px;
+}
+.about-me p{
+    padding-right: 150px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.recipie-item{
+    width: 25%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;   
+}
+#social-achievement{
+    width: 90%;
+    margin-left: 4%;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+.achivement{
+    margin-left: 15%;
+}
+.recipie-item img{
+    width: 100%;
+    height: auto; 
+}
+.my-recipies h2{
+    margin-left: 43%;
+    font-size: 25px;
+}
+.my-recipies p{
+    text-align: center;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    width: 100%;
+    background-color: #0B0D17;
+ 
+}
+footer h3{
+    margin-left: 43%;
+    padding-top: 80px;
+    font-size: 28px;
+}   
+footer p{
+    margin-left: 35%;
+}
